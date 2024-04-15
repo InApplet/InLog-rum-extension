@@ -1,0 +1,99 @@
+.inrum-bar, .inrum-bar *{
+    box-sizing: border-box;
+    font-family: sans-serif !important;
+}
+
+.inrum-bar{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    color: #fff;
+    padding: 0 4px;
+    text-align: center;
+    z-index: 2147483647;
+}
+
+.inrum-logo{
+    position: absolute;
+    top: -47px;
+    background: #fff;
+    padding: 10px;
+    left: 0;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.inrum-logo img{
+    height: 25px;
+}
+
+.inrum-content{
+    flex-grow: 1;
+    color: #000;
+    margin: 6px 4px;
+    padding: 6px;
+}
+
+.inrum-content .metric{
+    font-size: 18px !important;
+    font-weight: bold;
+    display: block;
+    line-height: 1.4 !important;
+}
+
+.inrum-content .name{
+    line-height: 1 !important;
+    font-size: 12px !important;
+    display: block;
+}
+
+/*
+redirect #D5C1EB
+dns #EBC1C2
+TCP #D7EBC1
+SSL #C1EBEA
+Request #C1EBEA
+Response #E8C4DF
+DOM #E8E0C4
+OnLoad #C4E8CE
+*/
+
+.inrum-content:nth-child(1){
+    background-color: #D5C1EB;
+}
+
+.inrum-content:nth-child(2){
+    background-color: #EBC1C2;
+}
+
+.inrum-content:nth-child(3){
+    background-color: #D7EBC1;
+}
+
+.inrum-content:nth-child(4){
+    background-color: #C4E8CE;
+}
+
+.inrum-content:nth-child(5){
+    background-color: #C1EBEA;
+}
+
+.inrum-content:nth-child(6){
+    background-color: #E8C4DF;
+}
+
+.inrum-content:nth-child(7){
+    background-color: #E8E0C4;
+}
+
+.inrum-content:nth-child(8){
+    background-color: #c5bc98;
+}
+
+.inrum-content:nth-child(9){
+    background-color: #C1EBEA;
+}
